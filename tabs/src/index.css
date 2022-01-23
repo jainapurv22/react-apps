@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f5f8;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.App {
+  text-align: center;
+  padding-top: 5rem;
+}
+.head {
+  color: #102a42;
+  font-size: 2.6rem;
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+.line {
+  width: 5rem;
+  height: 0.25rem;
+  background-color: #2caeba;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.load {
+  padding-top: 5rem;
+}
+.load h1 {
+  font-size: 5rem;
+}
+.info {
+  padding-left: 11rem;
+  padding-right: 11rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.company {
+  padding-right: 3rem;
+  text-align: left;
+}
+.btns {
+  padding-top: 1rem;
+}
+button {
+  padding: 0.25rem 0rem 0.25rem 3rem;
+  cursor: pointer;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  border: none;
+  background: none;
+  outline: none;
+  transition: all 0.3s linear;
+  border-left: 3px solid #fff;
+}
+button:hover,
+.active-btn {
+  color: #37bcc8;
+  border-left: 3px solid #37bcc8;
+}
+.join-info {
+  text-align: left;
+  padding-top: 0.5rem;
+}
+.join-info h1 {
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  color: #102a42;
+}
+.comp {
+  color: #617d98;
+  padding: 0.25rem 0.7rem;
+  background-color: #dae2ec;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 0.6rem;
+}
+.time {
+  letter-spacing: 1px;
+  color: #617d98;
+  font-weight: 400;
+  margin-bottom: 1.25rem;
+}
+.duty {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+.icon {
+  color: #2caeba;
+}
+p {
+  color: #324d67;
+}
