@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.head {
+  color: #102a42;
+  font-size: 2.7rem;
+  text-align: center;
+}
+.line {
+  width: 6rem;
+  height: 0.25rem;
+  background-color: #c59d5f;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.list {
+  margin-left: 11rem;
+  margin-right: 11rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 2rem;
+}
+
+img {
+  width: 13rem;
+  height: 8rem;
+  object-fit: cover;
+  border: 4px solid #c59d5f;
+  border-radius: 0.25rem;
+}
+
+.item {
+  margin-bottom: 2.5rem;
+  display: flex;
+  gap: 1rem;
+  text-align: left;
+  flex-grow: unset;
+}
+
+p {
+  padding-top: 1rem;
+  color: #617d98;
+}
+
+h4 {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.underline {
+  border-top: 1px dotted #617d98;
+  margin-top: 0.2rem;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  color: #c59d5f;
+}
+
+.type {
+  display: flex;
+  justify-content: center;
+  gap: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+button {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: #c59d5f;
+  background: none;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  padding: 0.4rem 0.9rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.type button:hover {
+  background-color: #c59d5f;
+  color: white;
+  border-radius: 00.25rem;
+}
